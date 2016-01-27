@@ -52,15 +52,65 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
   color: #404041;
   font-size: 22px;
   margin-top: -1px;
-  line-height: 140%;
   width: 526px;
+  line-height: 140%;
+  letter-spacing: 0.0625em;
+  -webkit-transform: scale(.96, 1.025);
 }
 
-#blackHighlight {
+#darkHighlight {
   color: #ffffff;
-  
+  background-color: #404041;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #whiteHighlight {
   color: #000000;
+}
+
+div#white300 {
+  height: 340px;
+  width: 100%;
+  display: inline-block;
+}
+
+#white300 img {
+  padding-left: 306px;
+  float: left;
+  margin-top: -13px;
+}
+
+#white300Text {
+  float: right;
+  margin-right: 302px;
+  margin-top: 73px;
+  max-width: 422px;
+  font-family: 'Proxima-Nova-Reg', sans-serif;
+  font-size: 22px;
+  line-height: 140%;
+  color: #6e6f72;
+
+
+}
+
+div#ourStudents {
+  height: 152px;
+  background-color: #404041;
+}
+
+#ourStudents img {
+  margin-top: -94px;
+  margin-left: 367px;
+  padding-bottom: 0px;
+}
+
+#ourStudentsText {
+  font-family: 'Proxima-Nova-Reg', sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.0625em;
+  -webkit-transform: scale(1, 1.025);
+  margin-top: -6px;
 }
