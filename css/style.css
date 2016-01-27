@@ -33,17 +33,20 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
   src: url('TrashHand.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #header547 {
   background-color: #e9c21d;
   height: 450px;
   width: 100%;
 }
 
-.displayImgCenter {
+#img547 {
   padding-top: 67px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 42%;
 }
 
@@ -102,7 +105,6 @@ div#ourStudents {
 #ourStudents img {
   margin-top: -94px;
   margin-left: 367px;
-  padding-bottom: 0px;
 }
 
 #ourStudentsText {
@@ -114,3 +116,15 @@ div#ourStudents {
   -webkit-transform: scale(1, 1.025);
   margin-top: -6px;
 }
+
+#theyAre {
+  background-color: #000000;
+  height: 192px;
+}
+
+#theyAreBubble {
+  margin-top: -63px;
+  margin-left: 731px;
+  position: absolute;
+}
+
