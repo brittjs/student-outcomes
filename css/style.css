@@ -1,0 +1,66 @@
+/*color:
+yellow: #e9c21d
+dark grey text #404041
+light grey text #6e6f72
+light grey background #f1f1f2
+blue background #436a8b
+*/
+
+/*
+.eot for IE 8+
+.woff for every other browser besides opera mini
+trashHand.ttf set to installable to be able to support IE9+ browsers
+*/
+
+@font-face {
+  font-family: 'Proxima-Nova-Reg';
+  src: url('fonts/Proxima-Nova-Reg.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Proxima-Nova-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Proxima-Nova-Reg.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Proxima-Nova-Reg.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'FuturaBQExtraBold';
+  src: url('FuturaBQExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('FuturaBQExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FuturaBQExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('FuturaBQExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'TrashHand';
+  src: url('TrashHand.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+#header547 {
+  background-color: #e9c21d;
+  height: 450px;
+  width: 100%;
+}
+
+.displayImgCenter {
+  padding-top: 67px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 42%;
+}
+
+#intro {
+  font-family: 'Proxima-Nova-Reg', sans-serif;
+  color: #404041;
+  font-size: 22px;
+  margin-top: -1px;
+  line-height: 140%;
+  width: 526px;
+}
+
+#blackHighlight {
+  color: #ffffff;
+  
+}
+
+#whiteHighlight {
+  color: #000000;
+}
