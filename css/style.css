@@ -72,6 +72,10 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
   color: #000000;
 }
 
+.whiteContainer {
+  height: 100%;
+}
+
 div#white300 {
   height: 340px;
   width: 100%;
@@ -85,10 +89,10 @@ div#white300 {
 }
 
 #white300Text {
-  float: right;
+  position: absolute;
   margin-right: 302px;
   margin-top: 73px;
-  max-width: 422px;
+  min-width: 422px;
   font-family: 'Proxima-Nova-Reg', sans-serif;
   font-size: 22px;
   line-height: 140%;
