@@ -33,7 +33,7 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
   src: url('TrashHand.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
-.centerImg {
+.centerContent {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -127,8 +127,40 @@ div#ourStudents {
 }
 
 #theyAreBubble {
-  margin-top: -63px;
+  margin-top: -101px;
   margin-left: 731px;
   position: absolute;
+}
+
+#mapDiv {
+  padding-top: 41px;
+  height: 1100px;
+  background-color: #ffffff;
+}
+
+#previousJobs {
+  padding-bottom: 14px;
+  width: 541px;
+  font-family: 'Proxima-Nova-Reg', sans-serif;
+  color: #404041;
+  font-size: 18px;
+  line-height: 165%;
+  letter-spacing: 0.0625em;
+  -webkit-transform: scale(.96, 1.025);
+
+}
+
+#map {
+  margin-top: -28px;
+}
+
+#theyAreAlso {
+  margin-top: -63px;
+  margin-left: 294px;
+  position: absolute;
+}
+
+#redHighlight {
+  color: red;
 }
 
