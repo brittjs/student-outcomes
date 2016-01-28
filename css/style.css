@@ -22,10 +22,10 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
 
 @font-face {
   font-family: 'FuturaBQExtraBold';
-  src: url('FuturaBQExtraBold.eot'); /* IE9 Compat Modes */
-  src: url('FuturaBQExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('FuturaBQExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('FuturaBQExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('fonts/FuturaBQExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/FuturaBQExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/FuturaBQExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/FuturaBQExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -162,5 +162,21 @@ div#ourStudents {
 
 #redHighlight {
   color: red;
+}
+
+#beforeJoining {
+  margin-left: -143px;
+  margin-bottom: -39px;
+  font-family: sans-serif;
+  font-size: 21px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 135%;
+  -webkit-transform: scale(1.1, 1);
+}
+
+#internsToCeos {
+  margin-left: 227px;
 }
 
