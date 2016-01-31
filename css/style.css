@@ -30,7 +30,7 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
 
 @font-face {
   font-family: 'TrashHand';
-  src: url('TrashHand.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('fonts/TrashHand.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 .centerContent {
@@ -186,10 +186,16 @@ div#ourStudents {
 }  
 
 .poker-container {
-background: #f1f1f2;
-position: relative;
-height: 212px;
+  background: #f1f1f2;
+  position: relative;
+  height: 212px;
 }
+
+.poker-container img {
+  height: 140px;
+  margin-top: -17px;
+}
+
 
 .poker-container:before {
   content: '';
@@ -208,9 +214,21 @@ height: 212px;
 }
 
 .innerPoker {
-  margin: 10px 0;
-  padding: 0 20px;
+  margin-left: 16%;
+  padding: 25px 20px;
   padding-bottom: 10px;
   position: relative;
+  font-family: 'TrashHand';
+  font-size: 23px;
+  color: #404041;
+  letter-spacing: 0.08em;
+  -webkit-transform: scale(1, 1.06);
+}
+
+#futura {
+  font-size: 24px; 
+  font-family: 'FuturaBQExtraBold';
+  letter-spacing: 0.07em;
+  font-style: italic;
 }
 
