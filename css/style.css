@@ -69,7 +69,13 @@ trashHand.ttf set to installable to be able to support IE9+ browsers
 }
 
 #whiteHighlight {
+  background-color: #ffffff;
+  font-size: 17px;
+  font-family: 'FuturaBQExtraBold';
+  font-style: italic;
+  font-weight: bolder;
   color: #000000;
+  padding: 5px 10px 5px 10px;
 }
 
 .whiteContainer {
@@ -188,12 +194,12 @@ div#ourStudents {
 .poker-container {
   background: #f1f1f2;
   position: relative;
-  height: 212px;
+  height: 215px;
 }
 
 .poker-container img {
   height: 140px;
-  margin-top: -17px;
+  margin-top: -14px;
 }
 
 
@@ -231,4 +237,24 @@ div#ourStudents {
   letter-spacing: 0.07em;
   font-style: italic;
 }
+
+#stoneSoups {
+  background-color: #404041;
+  height: 157px;
+  margin-top: -22px;
+  
+}
+
+#stoneSoups p {
+  font-family: 'Proxima-Nova-Reg', sans-serif;
+  font-size: 22px;
+  line-height: 137%;
+  color: #ffffff;
+  letter-spacing: 0.045em;
+  -webkit-transform: scale(1, 1.095);
+  width: 521px;
+  padding-top: 46px;
+}
+
+
 
