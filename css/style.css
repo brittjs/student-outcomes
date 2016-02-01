@@ -103,8 +103,6 @@ div#white300 {
   font-size: 22px;
   line-height: 140%;
   color: #6e6f72;
-
-
 }
 
 div#ourStudents {
@@ -153,7 +151,6 @@ div#ourStudents {
   line-height: 165%;
   letter-spacing: 0.0625em;
   -webkit-transform: scale(.96, 1.025);
-
 }
 
 #map {
@@ -201,8 +198,6 @@ div#ourStudents {
   height: 140px;
   margin-top: -14px;
 }
-
-
 .poker-container:before {
   content: '';
   position: absolute;
@@ -290,7 +285,7 @@ div#ourStudents {
 #studentAccomplishments {
   background-color: #000000;
   background-image: url("../images/studentbackground.jpg");
-  height: 1000px;
+  height: 1024px;
   font-family: 'Andale Mono', AndaleMono, monospace;
   padding-top: 35px;
   text-align: center;
@@ -314,6 +309,7 @@ div#ourStudents {
   flex: 1;
   width: 100%;
   font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 16px;
   color: #ffffff;
   line-height: 170%;
   margin-right: 25px;
@@ -335,15 +331,14 @@ div#ourStudents {
 }
 
 .photoRight p {
-
   flex: 1;
   font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 16px;
   color: #ffffff;
   line-height: 170%;
   margin-right: 25px;
   margin-left: 25px;
   text-align: right;
-  /*margin: 0;*/
 }
 
 .logo {
@@ -354,6 +349,42 @@ div#ourStudents {
   margin-left: 60px;
 }
 
+#companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 593px;
+} 
+
+#companies p {
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404041;
+  width: 640px;
+} 
+
+#companyLogosDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  justify-content: center;
+}
+
+.companyLogos {
+  width: 118px;
+  height: 100%;
+}
+
+#smallerLogo {
+
+}
+
+#biggerLogo {
+  
+}
 
 
 
