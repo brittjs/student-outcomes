@@ -256,5 +256,54 @@ div#ourStudents {
   padding-top: 46px;
 }
 
+#computers {
+  background-image: url("../images/computerbackground.png");
+  height: 696px;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 19px;
+  color: #404041;
+}
+
+#compSpan {
+  font-family: 'TrashHand';
+  font-size: 25px;
+  color: #404041;
+  letter-spacing: 0.0825em;
+  -webkit-transform: scale(1, 1.07);
+  line-height: 160%;
+}
+
+#demoDay {
+  padding-top: 222px;
+}
+
+#demoDay span{
+  line-height: 145%;
+}
+
+#demoDay img {
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 484px;
+}
+
+#studentAccomplishments {
+  background-color: #000000;
+  background-image: url("../images/studentbackground.jpg");
+  height: 1000px;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+/*  font-size: 15px;
+  font-color: #000000;
+*/}
+
+.photoLeft {
+
+}
+
+.photoRight {
+  
+}
+
+
 
 
