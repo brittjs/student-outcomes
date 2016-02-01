@@ -446,11 +446,13 @@ div#ourStudents {
 
 #alumni33 p {
   margin-top: -22px;
+  margin-left: 13px;
   color: #ffffff;
   text-align: center;
   font-family: 'Andale Mono', AndaleMono, monospace;
   font-size: 15px;
   line-height: 160%;
+  width: 210px;
 }
 
 #over50 img { 
@@ -459,7 +461,10 @@ div#ourStudents {
 }
 
 #over50 p {
-  margin-top: -45px;
+  width: 272px;
+  margin: -32px 0px 90px -20px;
+/*  margin-bottom: 90px;
+  margin-left: -20px;*/
   color: #ffffff;
   text-align: center;
   font-family: 'Andale Mono', AndaleMono, monospace;
@@ -468,9 +473,29 @@ div#ourStudents {
 }
 
 #hands {
- height: 618px; 
- background-color: #ffffff;
+  padding-top: 63px;
+  height: 618px; 
+  background-color: #ffffff;
+  color: #436a8b;
+  text-align: center;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 14px;
+  line-height: 160%;
 }
+
+#hands img {
+  margin-left: 75px;
+}
+
+#praise {
+  text-align: center;
+  width: 417px;
+}
+
+/*#praise p {
+  width: 387px;
+  text-align: center;
+}*/
 
 #thankYou {
   height: 528px;
