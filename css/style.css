@@ -168,7 +168,7 @@ div#ourStudents {
 }
 
 #beforeJoining {
-  width: 700px;
+  width: 662px;
   margin-left: 168px;
   margin-bottom: -39px;
   font-family: sans-serif;
@@ -196,7 +196,7 @@ div#ourStudents {
 
 .poker-container img {
   height: 140px;
-  margin-top: -14px;
+  margin-top: -6px;
 }
 .poker-container:before {
   content: '';
@@ -429,12 +429,54 @@ div#ourStudents {
   margin-left: 210px;
   padding-top: 100px;
   color: #6e6f72;
+  width: 300px;
 }
 
 #mentors {
+  padding-top: 65px;
+  display: inline-block;
+  width: 100%;
   background-color: #436a8b;
-  height: 434px;
+  min-height: 434px;
 }
+
+#alumni33 img {
+
+}
+
+#alumni33 p {
+  margin-top: -22px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+#over50 img { 
+ /*position: absolute;*/
+ margin-top: -14px;
+}
+
+#over50 p {
+  margin-top: -45px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+#hands {
+ height: 618px; 
+ background-color: #ffffff;
+}
+
+#thankYou {
+  height: 528px;
+  background-color: #404041;
+}
+
 
 
 
