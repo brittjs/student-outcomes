@@ -483,23 +483,25 @@ div#ourStudents {
   line-height: 160%;
 }
 
-#hands img {
-  margin-left: 75px;
+#praise img {
+  margin-left: 92px;
 }
 
-#praise {
-  text-align: center;
+#hands#praise {
   width: 417px;
 }
 
-/*#praise p {
-  width: 387px;
-  text-align: center;
-}*/
+#hands#pray {
+  width: 554px;
+}
 
 #thankYou {
   height: 528px;
   background-color: #404041;
+}
+
+#thankYou img {
+
 }
 
 
