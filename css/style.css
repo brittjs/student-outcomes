@@ -23,6 +23,7 @@
 }
 
 #header547 {
+  text-align: center;
   background-color: #e9c21d;
   height: 450px;
   width: 100%;
@@ -30,13 +31,14 @@
 
 #img547 {
   padding-top: 67px;
-  height: 56%;
+  height: 250px;
 }
 
 #intro {
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #404041;
   font-size: 22px;
+  margin: 0 auto;
   margin-top: -1px;
   width: 540px;
   line-height: 140%;
@@ -61,25 +63,34 @@
   padding: 5px 10px 5px 10px;
 }
 
-.whiteContainer {
+/*.whiteContainer {
   height: 100%;
-}
+}*/
 
 #white300 {
-  height: 340px;
+  text-align: center;
   width: 100%;
-  display: inline-block;
+  height: 340px;
+  /*width: 100%;*/
+  /*display: inline-block;*/
+}
+
+.students300 {
+  width: 100%;
+  text-align: center;
 }
 
 #white300 img {
-  padding-left: 306px;
+  margin-left: 8.5%;
   float: left;
   margin-top: -13px;
 }
 
 #white300Text {
   position: absolute;
-  margin-top: 73px;
+  text-align: left;
+  top: 73px;
+  left: 353px;
   min-width: 422px;
   font-family: 'Proxima-Nova-Reg', sans-serif;
   font-size: 22px;
@@ -414,7 +425,7 @@
   width: 300px;
 }
 
-#mentors {
+.mentors {
   text-align: center;
   padding-top: 65px;
   display: inline-block;
@@ -448,7 +459,7 @@
   line-height: 160%;
 }
 
-#hands {
+.hands {
   margin-top: -5px;
   padding-top: 63px;
   height: 618px; 
@@ -476,7 +487,7 @@
   margin-top: 65px;
 }
 
-#thankYou {
+.thankYou {
   height: 528px;
   background-color: #404041;
   text-align: center;
@@ -484,11 +495,11 @@
   font-size: 16px;
 }
 
-#thankYou a {
+.thankYou a {
   color: #ffffff;
 }
 
-#thankYou img {
+.thankYou img {
   padding-top: 204px;
 }
 
