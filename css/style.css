@@ -68,6 +68,7 @@
 }*/
 
 #white300 {
+  position: relative;
   text-align: center;
   width: 100%;
   height: 340px;
@@ -75,13 +76,9 @@
   /*display: inline-block;*/
 }
 
-/*.students300 {
-  width: 100%;
-  text-align: center;
-}*/
-
 #white300 img {
-  margin-left: 8.5%;
+  position: absolute;
+  left: 10%;
   float: left;
   margin-top: -13px;
 }
@@ -99,23 +96,30 @@
 }
 
 #ourStudents {
+  width: 100%;
+  position: relative;
+  text-align: center;
   height: 152px;
   background-color: #404041;
 }
 
 #ourStudents img {
+  position: absolute;
   margin-top: -94px;
-  margin-left: 367px;
+  left: 30%;
 }
 
 #ourStudentsText {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 28%;
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #ffffff;
   font-size: 22px;
   line-height: 130%;
   letter-spacing: 0.0625em;
   -webkit-transform: scale(1, 1.025);
-  margin-top: -6px;
 }
 
 #theyAre {
