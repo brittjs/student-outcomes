@@ -462,13 +462,11 @@
 
 #alumni33 p {
   margin-top: -22px;
-  margin-left: 24px;
   color: #ffffff;
   text-align: center;
   font-family: 'Andale Mono', AndaleMono, monospace;
   font-size: 15px;
   line-height: 160%;
-  width: 210px;
 }
 
 #over50 img { 
@@ -476,7 +474,6 @@
 }
 
 #over50 p {
-  width: 272px;
   margin: -32px 0px 90px -2px;
   color: #ffffff;
   text-align: center;
