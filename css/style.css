@@ -106,14 +106,16 @@
 }
 
 #ourStudents {
-  position: relative;
-  width: 100%;
+  /*position: relative;*/
+  /*width: 100%;*/
   text-align: center;
   min-height: 152px;
   background-color: #404041;
 }
 
 #ourStudentsText {
+  width: 610px;
+  margin: 0 auto;
   padding: 42px 10px 42px 10px;
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #ffffff;
@@ -362,6 +364,7 @@
 }
 
 #companies {
+  text-align: center;
   padding-top: 14px;
   display: flex;
   flex-direction: column;
@@ -372,6 +375,7 @@
 } 
 
 #companies p {
+  text-align: left;
   font-family: 'Andale Mono', AndaleMono, monospace;
   font-size: 14px;
   line-height: 160%;
