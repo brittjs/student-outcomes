@@ -143,6 +143,18 @@
   -webkit-transform: scale(.96, 1.025);
 }
 
+#previous2 {
+  padding-bottom: 14px;
+  margin-top: 14px;
+  width: 541px;
+  font-family: 'Proxima-Nova-Reg', sans-serif;
+  color: #6e6f72;
+  font-size: 17px;
+  line-height: 165%;
+  letter-spacing: 0.08em;
+  -webkit-transform: scale(.98, 1.025);
+}
+
 #map {
   margin-top: -18px;
   margin-bottom: 20px;
@@ -280,7 +292,7 @@
 }
 
 #demoDay img {
-  margin-left: 19%;
+  margin-left: 18%;
   margin-top: 32px;
 }
 
@@ -296,7 +308,6 @@
 .photoLeft {
   display: inline-flex;
   align-items: center;
- /* justify-content: space-between;*/
   border: 1px solid #ffffff;
   width: 614px;
   margin-bottom: 14px;
@@ -307,7 +318,6 @@
 }
 
 .photoLeft p {
-  /*flex: 1;*/
   width: 100%;
   font-family: 'Andale Mono', AndaleMono, monospace;
   font-size: 16px;
@@ -321,7 +331,6 @@
 .photoRight {
   display: inline-flex;
   align-items: center;
-  /*justify-content: space-between;*/
   border: 1px solid #ffffff;
   width: 614px;
   margin-bottom: 14px;
@@ -332,7 +341,6 @@
 }
 
 .photoRight p {
-  /*flex: 1;*/
   font-family: 'Andale Mono', AndaleMono, monospace;
   font-size: 16px;
   color: #ffffff;
