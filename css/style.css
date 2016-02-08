@@ -200,9 +200,9 @@
   min-height: 215px;
 }
 
-.poker-container#cards {
+#cards {
   height: 140px;
-  margin-top: -6px;
+  padding-left: 15px;
 }
 
 #ourStudentsLabel {
