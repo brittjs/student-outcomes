@@ -169,7 +169,11 @@
 }
 
 #redHighlight {
-  color: red;
+  color: #ff0000;
+}
+
+#blueHighlight {
+  color: #3A90CB;
 }
 
 #beforeJoining p {
@@ -524,6 +528,10 @@
 
 .thankYou img {
   padding-top: 204px;
+}
+
+.thankYou a:hover {
+  color: #ffffff;
 }
 
 
