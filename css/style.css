@@ -366,15 +366,18 @@
 #companies {
   text-align: center;
   padding-top: 14px;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   background-color: #ffffff;
   height: 593px;
 } 
 
 #companies p {
+  padding-top: 46px;
+  padding-bottom: 33px;
+  margin: 0 auto;
   text-align: left;
   font-family: 'Andale Mono', AndaleMono, monospace;
   font-size: 14px;
@@ -388,13 +391,13 @@
   font-weight: bolder;
 }
 
-#companyLogosDiv {
+/*#companyLogosDiv {
   display: flex;
   flex-wrap: wrap;
   width: 640px;
   text-align: center;
 }
-
+*/
 .logoRow1 {
   width: 100%;
   text-align: center;
