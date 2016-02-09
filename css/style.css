@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Proxima-Nova-Reg';
   src: url('fonts/Proxima-Nova-Reg.eot'); 
-  src: url('fonts/Proxima-Nova-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Proxima-Nova-Reg.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/Proxima-Nova-Reg.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('fonts/Proxima-Nova-Reg.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Proxima-Nova-Reg.woff') format('woff'),
+       url('fonts/Proxima-Nova-Reg.ttf')  format('truetype'); 
 }
 
 @font-face {
@@ -12,9 +12,19 @@
 }
 
 @font-face {
-  font-family: 'TrashHand';
-  src: url('fonts/TrashHand.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-family: 'SourceCodePro-Light';
+  src: url('fonts/SourceCodePro-Light.otf'); 
 }
+
+@font-face {
+  font-family: 'SourceCodePro-Semibold';
+  src: url('fonts/SourceCodePro-Semibold.otf'); 
+}
+
+@font-face {
+  font-family: 'TrashHand';
+  src: url('fonts/TrashHand.ttf')  format('truetype');
+}  
 
 .centerContent {
   display: block;
@@ -232,7 +242,7 @@
 .innerPoker {
   margin: 0 auto;
   padding: 25px 20px;
-  width: 820px;
+  width: 822px;
   padding-bottom: 10px;
   font-family: 'TrashHand';
   font-size: 23px;
@@ -269,7 +279,7 @@
 #computers {
   background-image: url("../images/computerbackground.png");
   height: 696px;
-  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-family: 'SourceCodePro-Light','Andale Mono', AndaleMono, monospace;
   font-size: 19px;
   color: #404041;
 }
@@ -301,7 +311,7 @@
   background-color: #000000;
   background-image: url("../images/studentbackground.jpg");
   height: 884px;
-  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
   padding-top: 35px;
   text-align: center;
 }
@@ -320,7 +330,7 @@
 
 .photoLeft p {
   width: 100%;
-  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
   font-size: 16px;
   color: #ffffff;
   line-height: 170%;
@@ -342,7 +352,7 @@
 }
 
 .photoRight p {
-  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
   font-size: 16px;
   color: #ffffff;
   line-height: 170%;
@@ -371,7 +381,7 @@
   padding-bottom: 33px;
   margin: 0 auto;
   text-align: left;
-  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
   font-size: 14px;
   line-height: 160%;
   color: #6e6f72;
@@ -438,8 +448,8 @@
   margin-top: -22px;
   color: #ffffff;
   text-align: center;
-  font-family: 'Andale Mono', AndaleMono, monospace;
-  font-size: 15px;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
+  font-size: 16px;
   line-height: 160%;
 }
 
@@ -451,9 +461,9 @@
   margin: -32px 0px 90px -2px;
   color: #ffffff;
   text-align: center;
-  font-family: 'Andale Mono', AndaleMono, monospace;
-  font-size: 15px;
-  line-height: 160%;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
+  font-size: 16px;
+  /*line-height: 160%;*/
 }
 
 .hands {
@@ -462,13 +472,17 @@
   height: 618px; 
   color: #436a8b;
   text-align: center;
-  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
   font-size: 14px;
   line-height: 160%;
 }
 
 #praise img {
   margin-left: 92px;
+}
+
+.bold {
+  font-family: 'SourceCodePro-Semibold', 'Andale Mono', AndaleMono, monospace;
 }
 
 #hands#praise {
@@ -487,8 +501,8 @@
   height: 528px;
   background-color: #404041;
   text-align: center;
-  font-family: 'Andale Mono', AndaleMono, monospace;
-  font-size: 16px;
+  font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
+  font-size: 18px;
 }
 
 .thankYou a {
