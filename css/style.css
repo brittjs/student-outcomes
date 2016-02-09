@@ -292,7 +292,7 @@
 }
 
 #demoDay img {
-  margin-left: 18%;
+  margin-left: 15%;
   margin-top: 32px;
 }
 
@@ -502,6 +502,13 @@
 .thankYou a:hover {
   color: #ffffff;
 }
+
+svg {
+  position: absolute;
+  margin-top: 9px;
+}
+
+
 
 
 
