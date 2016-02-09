@@ -7,6 +7,11 @@
 }
 
 @font-face {
+  font-family: 'ProximaNova-Bold.otf';
+  src: url('fonts/ProximaNova-Bold.otf'); 
+}
+
+@font-face {
   font-family: 'FuturaBQDemiBold';
   src: url('fonts/FuturaBQDemiBold.otf'); 
 }
@@ -54,6 +59,10 @@
   line-height: 140%;
   letter-spacing: 0.0625em;
   -webkit-transform: scale(.96, 1.025);
+}
+
+#introBold {
+  font-family: 'ProximaNova-Bold.otf', sans-serif;
 }
 
 #darkHighlight {
@@ -126,6 +135,13 @@
 #theyAre {
   background-color: #000000;
   height: 192px;
+  max-width: 100%;
+  height: auto;
+}
+
+#brainScientist {
+  max-width: 100%;
+  height: auto;
 }
 
 #theyAreBubble {
@@ -179,7 +195,7 @@
 }
 
 #redHighlight {
-  color: #ff0000;
+  color: #d25150;
 }
 
 #blueHighlight {
@@ -280,7 +296,7 @@
   background-image: url("../images/computerbackground.png");
   height: 696px;
   font-family: 'SourceCodePro-Light','Andale Mono', AndaleMono, monospace;
-  font-size: 19px;
+  font-size: 18px;
   color: #404041;
 }
 
