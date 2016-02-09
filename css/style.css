@@ -218,9 +218,7 @@
 #internsToCeos {
   max-width: 100%;
   height: auto;
-  position: absolute;
-  left: 128px;
-  top: -12px;
+  margin-top: -12px;
 }  
 
 .poker-container {
