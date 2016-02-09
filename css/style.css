@@ -166,7 +166,6 @@
 #previousJobs {
   padding-bottom: 14px;
   margin-top: 14px;
-  /*width: 541px;*/
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #404041;
   font-size: 18px;
@@ -178,7 +177,6 @@
 #previous2 {
   padding-bottom: 14px;
   margin-top: 14px;
-  /*width: 541px;*/
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #6e6f72;
   font-size: 17px;
@@ -262,7 +260,6 @@
 .innerPoker {
   margin: 0 auto;
   padding: 25px 20px;
-  width: 822px;
   padding-bottom: 10px;
   font-family: 'TrashHand';
   font-size: 23px;
@@ -330,13 +327,16 @@
 #studentAccomplishments {
   background-color: #000000;
   background-image: url("../images/studentbackground.jpg");
-  height: 884px;
+  background-repeat: no-repeat;
+  min-height: 884px;
   font-family: 'SourceCodePro-Light', 'Andale Mono', AndaleMono, monospace;
   padding-top: 35px;
   text-align: center;
 }
 
 .photoLeft {
+  max-width: 100%;
+  height: auto;
   display: inline-flex;
   align-items: center;
   border: 1px solid #ffffff;
@@ -360,6 +360,8 @@
 }
 
 .photoRight {
+  max-width: 100%;
+  height: auto;
   display: inline-flex;
   align-items: center;
   border: 1px solid #ffffff;
