@@ -90,15 +90,12 @@
   height: auto;
   max-width: 100%;
   margin-top: -12px;
-  margin-left: 7%;
+  margin-left: 20%;
 }
 
 #white300Text {
-  width: 440px;
-  position: absolute;
-  top: 73px;
-  left: 344px;
-  padding-bottom: 85px;
+  padding-left: 8px;
+  margin-bottom: 88px;
   text-align: left;
   font-family: 'Proxima-Nova-Reg', sans-serif;
   font-size: 22px;
@@ -106,6 +103,10 @@
   line-height: 136%;
   letter-spacing: 0.0625em;
   -webkit-transform: scale(1, 1.025);
+}
+
+#text300div {
+  padding-top: 76px;
 }
 
 #ourStudents img {
