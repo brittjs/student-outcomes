@@ -158,10 +158,15 @@
   background-color: #ffffff;
 }
 
+#previous {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 #previousJobs {
   padding-bottom: 14px;
   margin-top: 14px;
-  width: 541px;
+  /*width: 541px;*/
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #404041;
   font-size: 18px;
@@ -173,7 +178,7 @@
 #previous2 {
   padding-bottom: 14px;
   margin-top: 14px;
-  width: 541px;
+  /*width: 541px;*/
   font-family: 'Proxima-Nova-Reg', sans-serif;
   color: #6e6f72;
   font-size: 17px;
