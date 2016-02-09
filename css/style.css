@@ -121,7 +121,7 @@
 }
 
 #ourStudentsText {
-  width: 610px;
+  /*width: 610px;*/
   margin: 0 auto;
   padding: 42px 10px 42px 10px;
   font-family: 'Proxima-Nova-Reg', sans-serif;
@@ -190,8 +190,8 @@
 
 #theyAreAlso {
   position: absolute;
-  margin-top: -63px;
-  left: 24.5%;
+  margin-top: -76px;
+  left: 25%;
 }
 
 #redHighlight {
