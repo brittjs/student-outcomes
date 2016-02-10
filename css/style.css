@@ -449,6 +449,8 @@
 }
 
 #over116 img {
+  max-width:  100%;
+  height: auto;
   float: left;
   margin-top: 30px;
 }
@@ -458,7 +460,7 @@
   margin-left: 210px;
   padding-top: 122px;
   color: #6e6f72;
-  width: 300px;
+  /*width: 300px;*/
 }
 
 .mentors {
