@@ -388,6 +388,9 @@
 }
 
 #nikeLogo {
+  height: auto;
+  max-width: 100%;
+  width: 20%;
   margin-right: 13px;
 }
 
